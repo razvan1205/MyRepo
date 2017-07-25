@@ -144,7 +144,7 @@ echo /U:  Msdeploy destination user name.
 echo /P:  Msdeploy destination password.
 echo /G:  Msdeploy destination tempAgent. True or False. Default is false.
 echo /A:  specifies the type of authentication to be used. The possible values are NTLM and Basic. If the wmsvc provider setting is specified, the default authentication type is Basic
-otherwise, the default authentication type is NTLM.
+echo otherwise, the default authentication type is NTLM.
 
 echo.[additional msdeploy flags]: note: " is required for passing = through command line.
 echo  "-skip:objectName=setAcl" "-skip:objectName=dbFullSql"
