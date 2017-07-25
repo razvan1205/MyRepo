@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <!--TODO: Update to your desired application name.-->
+  <contentPath path="C:\Users\Administrator\Desktop\MyRepo\WebSite1" />
+  <createApp path="C:\Users\Administrator\Desktop\MyRepo\WebSite1" />
+</sitemanifest>
