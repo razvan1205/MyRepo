@@ -137,8 +137,8 @@ echo Required flags:
 echo /T  Calls msdeploy.exe with the "-whatif" flag, which simulates deployment. 
 echo /Y  Calls msdeploy.exe without the "-whatif" flag, which deploys the package to the current machine or destination server 
 echo Optional flags:  
-echo. By Default, this script deploy to the current machine where this script is invoked which will use current user credential without tempAgent. 
-echo.   Only pass these arguments when in advance scenario.
+echo By Default, this script deploy to the current machine where this script is invoked which will use current user credential without tempAgent. 
+echo   Only pass these arguments when in advance scenario.
 echo /M:  Msdeploy destination name of remote computer or proxy-URL. Default is local.
 echo /U:  Msdeploy destination user name. 
 echo /P:  Msdeploy destination password.
@@ -146,7 +146,7 @@ echo /G:  Msdeploy destination tempAgent. True or False. Default is false.
 echo /A:  specifies the type of authentication to be used. The possible values are NTLM and Basic. If the wmsvc provider setting is specified, the default authentication type is Basic
 echo otherwise, the default authentication type is NTLM.
 
-echo.[additional msdeploy flags]: note: " is required for passing = through command line.
+echo.[additional msdeploy flags]: note: " is required for passing = through command line."
 echo  "-skip:objectName=setAcl" "-skip:objectName=dbFullSql"
 echo.Alternative environment variable _MsDeployAdditionalFlags is also honored.
 echo.
